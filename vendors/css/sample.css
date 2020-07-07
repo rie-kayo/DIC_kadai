@@ -4,6 +4,15 @@ html {
 }
 body {
   text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.container{
+  width: 100% auto;
+  margin: 0 auto;
+  position: relative;
+  min-height: 100%;
 }
 .main-header {
   padding-bottom: 15%;
@@ -15,7 +24,7 @@ body {
 /* ここから */
 header {
   background-color: #444444;
-  height: 50px;
+  height: 55px;
   font-size: 1rem;
 }
 ul .right {
@@ -48,7 +57,7 @@ header ul:after {
 /* ここまでがheader部分の実装 */
 .main-header img {
 /* main画像（白い「Achieve」の文字の画像）部分の実装 */
- width:15%;
+ width:30%;
  padding-top:150px;
 }
 .about {
